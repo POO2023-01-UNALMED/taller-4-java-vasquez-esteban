@@ -27,7 +27,7 @@ public class Persona {
     }
 
     public Persona(long cedula) {
-        this(cedula, "Sin nombre");
+        this(cedula, "");
         totalPersonas++;
     }
 
